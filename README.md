@@ -80,7 +80,7 @@ This is a comprehensive Android application demonstrating all major Android UI V
 - [ ] No crashes or errors
 
 ## Author
-Created for Android Development Assignment #1
+Created by Mouzan Raza
 
 ## License
 Educational Use Only
