@@ -72,12 +72,12 @@ This is a comprehensive Android application demonstrating all major Android UI V
 
 ## Testing Checklist
 
-- [ ] App launches successfully
-- [ ] All 20 view buttons are visible
-- [ ] Each button opens its corresponding activity
-- [ ] Back navigation works
-- [ ] All interactive elements respond
-- [ ] No crashes or errors
+- [✔] App launches successfully
+- [✔] All 20 view buttons are visible
+- [✔] Each button opens its corresponding activity
+- [✔] Back navigation works
+- [✔] All interactive elements respond
+- [✔] No crashes or errors
 
 ## Author
 Created by Mouzan Raza
