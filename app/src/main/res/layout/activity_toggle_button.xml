@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton_desc"
+        android:textSize="14sp"
+        android:textColor="@color/gray_dark"
+        android:layout_marginBottom="24dp"/>
+
+    <ToggleButton
+        android:id="@+id/toggle_sound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="Sound ON"
+        android:textOff="Sound OFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_sound_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sound: OFF"
+        android:textSize="14sp"
+        android:textColor="@color/gray_dark"
+        android:padding="12dp"
+        android:background="@color/gray_light"
+        android:layout_marginBottom="24dp"/>
+
+    <ToggleButton
+        android:id="@+id/toggle_vibrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="Vibrate ON"
+        android:textOff="Vibrate OFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_vibrate_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibrate: OFF"
+        android:textSize="14sp"
+        android:textColor="@color/gray_dark"
+        android:padding="12dp"
+        android:background="@color/gray_light"/>
+
+</LinearLayout>

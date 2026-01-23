@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/gray_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_subtitle"
+            android:textSize="16sp"
+            android:textColor="@color/gray_dark"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Basic Views Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Views"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btn_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edittext_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/imageview_demo"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Input & Selection Views Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input &amp; Selection Views"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btn_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_toggle_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/togglebutton_demo"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Adapter Views Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adapter Views"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btn_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spinner_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listview_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recyclerview_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gridview_demo"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Progress & Feedback Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress &amp; Feedback"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btn_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/progressbar_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seekbar_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_rating_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ratingbar_demo"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Layout Demonstrations Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Layout Demonstrations"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btn_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/linearlayout_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/relativelayout_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/constraintlayout_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/framelayout_demo"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scrollview_demo"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

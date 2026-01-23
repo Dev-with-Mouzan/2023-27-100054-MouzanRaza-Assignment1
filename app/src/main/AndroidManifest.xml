@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.assignment.androidviews">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Assignment1AndroidViews">
+        
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ui.textview.TextViewActivity" />
+        <activity android:name=".ui.edittext.EditTextActivity" />
+        <activity android:name=".ui.button.ButtonActivity" />
+        <activity android:name=".ui.imageview.ImageViewActivity" />
+        <activity android:name=".ui.checkbox.CheckBoxActivity" />
+        <activity android:name=".ui.radiobutton.RadioButtonActivity" />
+        <activity android:name=".ui.switch_view.SwitchActivity" />
+        <activity android:name=".ui.togglebutton.ToggleButtonActivity" />
+        <activity android:name=".ui.spinner.SpinnerActivity" />
+        <activity android:name=".ui.listview.ListViewActivity" />
+        <activity android:name=".ui.recyclerview.RecyclerViewActivity" />
+        <activity android:name=".ui.gridview.GridViewActivity" />
+        <activity android:name=".ui.progressbar.ProgressBarActivity" />
+        <activity android:name=".ui.seekbar.SeekBarActivity" />
+        <activity android:name=".ui.ratingbar.RatingBarActivity" />
+        <activity android:name=".ui.linearlayout.LinearLayoutActivity" />
+        <activity android:name=".ui.relativelayout.RelativeLayoutActivity" />
+        <activity android:name=".ui.constraintlayout.ConstraintLayoutActivity" />
+        <activity android:name=".ui.framelayout.FrameLayoutActivity" />
+        <activity android:name=".ui.scrollview.ScrollViewActivity" />
+        
+    </application>
+
+</manifest>

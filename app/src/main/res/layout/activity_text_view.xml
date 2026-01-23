@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_desc"
+        android:textSize="14sp"
+        android:textColor="@color/gray_dark"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_example"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@color/gray_light"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_styled"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/blue"
+        android:padding="12dp"
+        android:background="@color/gray_light"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centered TextView"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView with custom font size, color, and multiple lines. This demonstrates how TextView can handle longer content with proper line breaks."
+        android:textSize="14sp"
+        android:textColor="@color/orange"
+        android:padding="12dp"
+        android:background="@color/gray_light"
+        android:lineSpacingExtra="4dp"/>
+
+</LinearLayout>

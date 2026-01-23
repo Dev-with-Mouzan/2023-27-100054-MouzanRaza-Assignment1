@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scrollview_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scrollview_desc"
+            android:textSize="14sp"
+            android:textColor="@color/gray_dark"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scroll down to see more content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content Block 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="This is a large content area that demonstrates scrolling. ScrollView allows content that is larger than the screen to be scrollable. This is essential for forms, articles, and any content that exceeds the viewport height."
+            android:textSize="14sp"
+            android:padding="16dp"
+            android:background="@color/gray_light"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content Block 2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Another large content block to demonstrate continuous scrolling capability."
+            android:textSize="14sp"
+            android:padding="16dp"
+            android:background="@color/gray_light"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content Block 3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:background="@color/orange"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Final content block. You've reached the bottom of the ScrollView demonstration!"
+            android:textSize="14sp"
+            android:padding="16dp"
+            android:background="@color/gray_light"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="End of ScrollView"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:gravity="center"
+            android:padding="24dp"/>
+
+    </LinearLayout>
+</ScrollView>

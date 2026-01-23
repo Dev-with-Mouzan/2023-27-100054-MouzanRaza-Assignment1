@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_desc"
+        android:textSize="14sp"
+        android:textColor="@color/gray_dark"
+        android:layout_marginBottom="24dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_wifi"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_wifi_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WiFi: OFF"
+        android:textSize="14sp"
+        android:textColor="@color/gray_dark"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_bluetooth"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_bluetooth_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth: OFF"
+        android:textSize="14sp"
+        android:textColor="@color/gray_dark"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_location"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_location_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location: OFF"
+        android:textSize="14sp"
+        android:textColor="@color/gray_dark"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"/>
+
+</LinearLayout>

@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Assignment1 - Android Views</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">Android Views Demonstration</string>
+    <string name="main_subtitle">Select a view to explore</string>
+    
+    <!-- View Names -->
+    <string name="textview_demo">TextView</string>
+    <string name="edittext_demo">EditText</string>
+    <string name="button_demo">Button</string>
+    <string name="imageview_demo">ImageView</string>
+    <string name="checkbox_demo">CheckBox</string>
+    <string name="radiobutton_demo">RadioButton</string>
+    <string name="switch_demo">Switch</string>
+    <string name="togglebutton_demo">ToggleButton</string>
+    <string name="spinner_demo">Spinner</string>
+    <string name="listview_demo">ListView</string>
+    <string name="recyclerview_demo">RecyclerView</string>
+    <string name="gridview_demo">GridView</string>
+    <string name="progressbar_demo">ProgressBar</string>
+    <string name="seekbar_demo">SeekBar</string>
+    <string name="ratingbar_demo">RatingBar</string>
+    <string name="linearlayout_demo">LinearLayout</string>
+    <string name="relativelayout_demo">RelativeLayout</string>
+    <string name="constraintlayout_demo">ConstraintLayout</string>
+    <string name="framelayout_demo">FrameLayout</string>
+    <string name="scrollview_demo">ScrollView</string>
+    
+    <!-- TextView Activity -->
+    <string name="textview_title">TextView Demonstration</string>
+    <string name="textview_desc">TextView is used to display text to the user</string>
+    <string name="textview_example">This is a simple TextView</string>
+    <string name="textview_styled">This is a styled TextView with custom attributes</string>
+    
+    <!-- EditText Activity -->
+    <string name="edittext_title">EditText Demonstration</string>
+    <string name="edittext_desc">EditText allows user input</string>
+    <string name="edittext_hint">Enter your name</string>
+    <string name="edittext_email_hint">Enter email</string>
+    <string name="edittext_password_hint">Enter password</string>
+    <string name="edittext_multiline_hint">Enter multi-line text here</string>
+    <string name="edittext_submit">Submit</string>
+    
+    <!-- Button Activity -->
+    <string name="button_title">Button Demonstration</string>
+    <string name="button_desc">Buttons trigger actions when clicked</string>
+    <string name="button_normal">Normal Button</string>
+    <string name="button_colored">Colored Button</string>
+    <string name="button_outlined">Outlined Button</string>
+    <string name="button_clicked">Button Clicked!</string>
+    
+    <!-- ImageView Activity -->
+    <string name="imageview_title">ImageView Demonstration</string>
+    <string name="imageview_desc">ImageView displays images</string>
+    <string name="imageview_label">Sample Image with ScaleType</string>
+    
+    <!-- CheckBox Activity -->
+    <string name="checkbox_title">CheckBox Demonstration</string>
+    <string name="checkbox_desc">CheckBoxes allow multiple selections</string>
+    <string name="checkbox_java">Java</string>
+    <string name="checkbox_kotlin">Kotlin</string>
+    <string name="checkbox_python">Python</string>
+    <string name="checkbox_javascript">JavaScript</string>
+    <string name="checkbox_show">Show Selected</string>
+    
+    <!-- RadioButton Activity -->
+    <string name="radiobutton_title">RadioButton Demonstration</string>
+    <string name="radiobutton_desc">RadioButtons allow single selection from a group</string>
+    <string name="radiobutton_male">Male</string>
+    <string name="radiobutton_female">Female</string>
+    <string name="radiobutton_other">Other</string>
+    <string name="radiobutton_show">Show Selection</string>
+    
+    <!-- Switch Activity -->
+    <string name="switch_title">Switch Demonstration</string>
+    <string name="switch_desc">Switch is a two-state toggle button</string>
+    <string name="switch_wifi">WiFi</string>
+    <string name="switch_bluetooth">Bluetooth</string>
+    <string name="switch_location">Location</string>
+    
+    <!-- ToggleButton Activity -->
+    <string name="togglebutton_title">ToggleButton Demonstration</string>
+    <string name="togglebutton_desc">ToggleButton displays checked/unchecked states</string>
+    <string name="togglebutton_sound">Sound</string>
+    <string name="togglebutton_vibrate">Vibrate</string>
+    
+    <!-- Spinner Activity -->
+    <string name="spinner_title">Spinner Demonstration</string>
+    <string name="spinner_desc">Spinner provides a dropdown list</string>
+    <string name="spinner_label">Select Country:</string>
+    <string name="spinner_show">Show Selection</string>
+    
+    <!-- ListView Activity -->
+    <string name="listview_title">ListView Demonstration</string>
+    <string name="listview_desc">ListView displays a scrollable list of items</string>
+    
+    <!-- RecyclerView Activity -->
+    <string name="recyclerview_title">RecyclerView Demonstration</string>
+    <string name="recyclerview_desc">RecyclerView is an advanced and flexible version of ListView</string>
+    
+    <!-- GridView Activity -->
+    <string name="gridview_title">GridView Demonstration</string>
+    <string name="gridview_desc">GridView displays items in a 2D scrollable grid</string>
+    
+    <!-- ProgressBar Activity -->
+    <string name="progressbar_title">ProgressBar Demonstration</string>
+    <string name="progressbar_desc">ProgressBar shows progress of an operation</string>
+    <string name="progressbar_indeterminate">Indeterminate Progress</string>
+    <string name="progressbar_determinate">Determinate Progress</string>
+    <string name="progressbar_start">Start Progress</string>
+    
+    <!-- SeekBar Activity -->
+    <string name="seekbar_title">SeekBar Demonstration</string>
+    <string name="seekbar_desc">SeekBar allows users to select a value by dragging</string>
+    <string name="seekbar_volume">Volume Control</string>
+    <string name="seekbar_brightness">Brightness Control</string>
+    
+    <!-- RatingBar Activity -->
+    <string name="ratingbar_title">RatingBar Demonstration</string>
+    <string name="ratingbar_desc">RatingBar shows a rating in stars</string>
+    <string name="ratingbar_label">Rate this app:</string>
+    <string name="ratingbar_show">Show Rating</string>
+    
+    <!-- LinearLayout Activity -->
+    <string name="linearlayout_title">LinearLayout Demonstration</string>
+    <string name="linearlayout_desc">LinearLayout arranges children in a single row or column</string>
+    <string name="linearlayout_vertical">Vertical Orientation</string>
+    <string name="linearlayout_horizontal">Horizontal Orientation</string>
+    
+    <!-- RelativeLayout Activity -->
+    <string name="relativelayout_title">RelativeLayout Demonstration</string>
+    <string name="relativelayout_desc">RelativeLayout positions children relative to each other</string>
+    
+    <!-- ConstraintLayout Activity -->
+    <string name="constraintlayout_title">ConstraintLayout Demonstration</string>
+    <string name="constraintlayout_desc">ConstraintLayout allows flexible positioning with constraints</string>
+    
+    <!-- FrameLayout Activity -->
+    <string name="framelayout_title">FrameLayout Demonstration</string>
+    <string name="framelayout_desc">FrameLayout is designed to block out an area for a single item</string>
+    
+    <!-- ScrollView Activity -->
+    <string name="scrollview_title">ScrollView Demonstration</string>
+    <string name="scrollview_desc">ScrollView allows scrolling of content larger than the screen</string>
+    
+    <!-- Common Strings -->
+    <string name="status_on">ON</string>
+    <string name="status_off">OFF</string>
+    <string name="selected">Selected:</string>
+    <string name="value">Value:</string>
+    
+    <!-- Spinner Items -->
+    <string-array name="countries">
+        <item>Select Country</item>
+        <item>Pakistan</item>
+        <item>India</item>
+        <item>United States</item>
+        <item>United Kingdom</item>
+        <item>Canada</item>
+        <item>Australia</item>
+    </string-array>
+</resources>
