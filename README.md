@@ -44,8 +44,8 @@ This is a comprehensive Android application demonstrating all major Android UI V
 
 ## How to Run
 
-1. **Open in Android Studio:**
-   - File → Open → Select the Assignment1_AndroidViews folder
+1. ** Clone the Repo first using git clone https://github.com/Dev-with-Mouzan/App_View_Assigment.git **
+   open the App_View_Assignment folder in android studio
 
 2. **Sync Gradle:**
    - The project will automatically sync dependencies
